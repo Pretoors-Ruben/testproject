@@ -1,6 +1,6 @@
 cname: "TestProject Execute Tests"
 description: "Execute TestProject test"
-author: "Christopher"
+author: "Ruben"
 runs:
   using: "node16"
   main: "execute-tests.js"
@@ -10,4 +10,7 @@ inputs:
     required: true
   api_key:
     description: "zesqLKp0Zl1qd3ULPvDbsNg40v8SkgfcXkdWug-LYtU1"
+    required: true
+  test_id:
+    description: "vXblSodgnEiwkDUx_llIXA"
     required: true
