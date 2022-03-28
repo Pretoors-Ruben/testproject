@@ -28,4 +28,4 @@ jobs:
         uses: dkershner6/post-api-call-action@v1
         with:
           url: ${{ secrets.API_URL }}
-          headers: "{\"Authorization\": \"${{ secrets.API_KEY }}\"}"
+          headers: "{\"Authorization\": \"Bearer ${{ secrets.API_KEY }}\"}"
