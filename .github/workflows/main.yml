@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Run testproject test
         uses: dkershner6/post-api-call-action@v1
         with:
           url: ${{ secrets.API_URL }}
