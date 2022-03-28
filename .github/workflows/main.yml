@@ -29,4 +29,4 @@ jobs:
         with:
           url: ${{ secrets.API_URL }}
           data: "{\"agentId\": \"qrJi4N9KCke611IpPxMNwg\", \"browser\": \"Chrome\", \"testParameters\": \"{ApplicationURL: https://example.testproject.io}\"}" 
-          headers: "{\"Authorization\": \"Bearer ${{ secrets.API_KEY }}\"}"
+          headers: "{\"Authorization\": \"${{ secrets.API_KEY }}\"}"
