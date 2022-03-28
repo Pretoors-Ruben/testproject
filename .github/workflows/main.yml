@@ -28,5 +28,4 @@ jobs:
         uses: dkershner6/post-api-call-action@v1
         with:
           url: ${{ secrets.API_URL }}
-          data: "{\"agentId\": \"qrJi4N9KCke611IpPxMNwg\", \"browser\": \"Chrome\", \"testParameters\": \"{ApplicationURL: https://example.testproject.io}\"}" 
           headers: "{\"Authorization\": \"${{ secrets.API_KEY }}\"}"
